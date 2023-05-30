@@ -45,13 +45,7 @@ def send_attachment():
 
 
     Thank you,
-    Regards,
-
-    Rashmi K.S,
-    Assistant Professor,
-    Department of ISE,
-    Jyothy Institute of Technology,
-    Bangalore.'''
+    Regards '''
 
     msg.attach(MIMEText(email_body_info, 'plain'))
 
@@ -114,13 +108,7 @@ def send_message():
 
 
     Thank you,
-    Regards,
-
-    Rashmi K.S,
-    Assistant Professor,
-    Department of ISE,
-    Jyothy Institute of Technology,
-    Bangalore.'''
+    Regards '''
 
     body = "Subject:{}\n\n{}".format(subject, msg)
 
